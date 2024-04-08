@@ -150,8 +150,7 @@
         li.innerText = aggiungi
         ul.appendChild(li)
 
-        // OPPURE
-        // ul.innerHTML += `<li>${content}</li>`
+        
       }
       addToTheSecond('elemento')
 
@@ -337,8 +336,8 @@
           const green = Math.round(Math.random() * 255)
 
           const randomColor = `rgb(${blue},${red},${green})`
-          cambioColore.style.userSelect = 'none' // elimina la possibilità di selezionare il testo, per non nasconderne il colore
-          cambioColore.style.cursor = 'pointer' // cursore a puntatore
+          cambioColore.style.userSelect = 'none'
+          cambioColore.style.cursor = 'pointer' 
           cambioColore.style.color = randomColor
         }
       }
